@@ -18,7 +18,7 @@
         <a href="https://inference-docs.cerebras.ai/introduction" target="_blank">{{ t('settings.engines.cerebras.aboutModels') }}</a>
         <a href="https://inference-docs.cerebras.ai/support/pricing" target="_blank">{{ t('settings.engines.cerebras.pricing') }}</a>
       </div>
-      <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+      <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
     </div>
     <div class="group">
       <label></label>

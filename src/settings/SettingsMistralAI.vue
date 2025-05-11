@@ -18,7 +18,7 @@
         <a href="https://docs.mistral.ai/docs/models" target="_blank">{{ t('settings.engines.mistralai.aboutModels') }}</a><br/>
         <a href="https://mistral.ai/technology/#pricing" target="_blank">{{ t('settings.engines.mistralai.pricing') }}</a>
       </div>
-      <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+      <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
     </div>
     <div class="group">
       <label></label>

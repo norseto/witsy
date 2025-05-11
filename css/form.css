@@ -182,6 +182,11 @@ form .slidergroup {
   top: -3px
 }
 
+.no-break-text {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
 form.vertical {
     
   display: flex;

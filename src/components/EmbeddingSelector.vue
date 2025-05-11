@@ -12,7 +12,7 @@
     <div class="subgroup">
       <Combobox v-model="model" :items="models"@change="onChangeModel" required :disabled="disabled" />
     </div>
-    <button @click.prevent="onRefresh" v-if="canRefresh">{{ refreshLabel }}</button>
+    <button class="no-break-text" @click.prevent="onRefresh" v-if="canRefresh">{{ refreshLabel }}</button>
   </div>
   
   <div class="group" v-else>
@@ -20,7 +20,7 @@
     <select v-model="model" @change="onChangeModel" required :disabled="disabled">
       <option v-for="m in models" :key="m.id" :value="m.id">{{ m.name }}</option>
     </select>
-    <button @click.prevent="onRefresh" v-if="canRefresh">{{ refreshLabel }}</button>
+    <button class="no-break-text" @click.prevent="onRefresh" v-if="canRefresh">{{ refreshLabel }}</button>
   </div>
   
   <div class="group" style="margin-top: -8px" v-if="engine !== 'ollama'">

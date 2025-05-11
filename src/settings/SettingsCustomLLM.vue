@@ -27,7 +27,7 @@
         <div class="subgroup">
           <Combobox name="models" :items="chat_models" :placeholder="t('common.modelPlaceholder')" v-model="chat_model" @change="save" />
         </div>
-        <button name="refresh"@click.prevent="onRefresh">{{ refreshLabel }}</button>
+        <button class="no-break-text" name="refresh"@click.prevent="onRefresh">{{ refreshLabel }}</button>
       </div>
     </template>
     <template v-if="api === 'azure'">

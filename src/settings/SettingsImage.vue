@@ -24,7 +24,7 @@
           </select>
           <span>{{ t('settings.plugins.image.apiKeyReminder') }}</span>
         </div>
-        <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+        <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
       </div>
     </template>
 
@@ -84,7 +84,7 @@
           <option v-for="model in image_models" :key="model.id" :value="model.id">{{ model.name }}
           </option>
         </select>
-        <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+        <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
       </div>
     </template>
 

@@ -12,7 +12,7 @@
       </div>
       <div @click="setAppearanceTheme('system')" :class="{ selected: appearance == 'system' }">
         <img src="/assets/appearance-system.png" />
-        {{ t('settings.appearance.themes.system') }}
+        <span class="no-break-text">{{ t('settings.appearance.themes.system') }}</span>
       </div>
     </div>
     <div class="group tint">

@@ -17,7 +17,7 @@
         <a href="https://platform.openai.com/docs/models/continuous-model-upgrades" target="_blank">{{ t('settings.engines.openai.aboutModels') }}</a><br/>
         <a href="https://openai.com/pricing" target="_blank">{{ t('settings.engines.openai.pricing') }}</a>
       </div>
-      <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+      <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
     </div>
     <div class="group">
       <label></label>

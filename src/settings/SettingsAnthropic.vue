@@ -18,7 +18,7 @@
         <a href="https://docs.anthropic.com/en/docs/about-claude/models" target="_blank">{{ t('settings.engines.anthropic.aboutModels') }}</a><br/>
         <a href="https://www.anthropic.com/pricing#anthropic-api" target="_blank">{{ t('settings.engines.anthropic.pricing') }}</a>
       </div>
-      <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+      <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
     </div>
     <div class="group">
       <label></label>

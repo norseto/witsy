@@ -18,7 +18,7 @@
         <a href="https://ai.google.dev/gemini-api/docs/models/gemini" target="_blank">{{ t('settings.engines.google.aboutModels') }}</a><br/>
         <a href="https://ai.google.dev/pricing" target="_blank">{{ t('settings.engines.google.pricing') }}</a>
       </div>
-      <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+      <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
     </div>
     <div class="group">
       <label></label>

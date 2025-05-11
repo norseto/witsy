@@ -8,7 +8,7 @@
         </option>
       </select>
       <button @click.prevent="onDelete"><BIconTrash /></button>
-      <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+      <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
     </div>
     <div class="group">
       <label></label>

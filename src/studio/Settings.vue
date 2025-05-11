@@ -24,7 +24,7 @@
           <select v-model="model" name="model" @change="onChangeModel">
             <option v-for="model in models" :value="model.id">{{ model.name }}</option>
           </select>
-          <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+          <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
         </div>
       </div>
 

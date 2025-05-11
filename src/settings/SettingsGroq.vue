@@ -18,7 +18,7 @@
         <a href="https://console.groq.com/docs/models" target="_blank">{{ t('settings.engines.groq.aboutModels') }}</a><br/>
         <a href="https://groq.com/pricing/" target="_blank">{{ t('settings.engines.groq.pricing') }}</a>
       </div>
-      <button @click.prevent="onRefresh">{{ refreshLabel }}</button>
+      <button class="no-break-text" @click.prevent="onRefresh">{{ refreshLabel }}</button>
     </div>
     <div class="group">
       <label></label>
