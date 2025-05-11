@@ -42,11 +42,11 @@
     "differentLocales": "LLMの言語とインターフェースの言語が異なります。表示されるテキストはLLMの言語またはカスタマイズされた言語です。",
     "disabled": "無効",
     "documents": "文書",
-    "done": "完了!",
+    "done": "完了",
     "edit": "編集",
     "embeddings": "埋め込み",
     "enabled": "有効",
-    "error": "エラー!",
+    "error": "エラー",
     "errorModelRefresh": "モデルの更新中にエラーが発生しました。接続を確認してから再試行してください。",
     "esc": "Esc",
     "estimatedCost": "推定コスト:",
@@ -102,8 +102,8 @@
     "read": "Read",
     "record": "Record",
     "redo": "Redo",
-    "refresh": "Refresh",
-    "refreshing": "Refreshing…",
+    "refresh": "更新",
+    "refreshing": "更新中…",
     "rename": "Rename",
     "replace": "Replace",
     "required": {
@@ -153,8 +153,8 @@
     "actions": {
       "exportMarkdown": "Export as Markdown",
       "exportPdf": "Export as PDF",
-      "makeTemporary": "Temporary Chat",
-      "saveChat": "Save Chat"
+      "makeTemporary": "一時チャット",
+      "saveChat": "保存"
     },
     "editor": {
       "title": "Title",
@@ -1219,25 +1219,25 @@
   },
   "main": {
     "chat": {
-      "confirmDeleteMultiple": "Are you sure you want to delete these chats?",
-      "confirmDeleteSingle": "Are you sure you want to delete this chat?",
+      "confirmDeleteMultiple": "これらのチャットを削除してもよろしいですか？",
+      "confirmDeleteSingle": "このチャットを削除してもよろしいですか？",
       "moveToFolder": "Move to Folder",
-      "rename": "Rename Chat"
+      "rename": "名前を変更"
     },
     "folder": {
-      "confirmDelete": "Are you sure you want to delete this folder?",
+      "confirmDelete": "このフォルダーを削除してもよろしいですか？",
       "deleteConversations": "Delete conversations",
       "keepConversations": "Keep conversations",
-      "rename": "Rename Folder"
+      "rename": "名前を変更"
     },
     "message": {
-      "confirmDelete": "Are you sure you want to delete this message? This message and all subsequent messages of the conversation will be deleted."
+      "confirmDelete": "このメッセージを削除してもよろしいですか？このメッセージと会話のすべてのメッセージが削除されます。"
     },
     "update": {
-      "available": "Update Available",
-      "later": "Later",
-      "restart": "An update is available. Restart to apply it.",
-      "restartNow": "Restart now"
+      "available": "更新が利用可能です",
+      "later": "後で",
+      "restart": "更新が利用可能です。適用するには再起動してください。",
+      "restartNow": "今すぐ再起動"
     }
   },
   "mcp": {
@@ -1273,22 +1273,22 @@
   },
   "menu": {
     "app": {
-      "checkForUpdates": "Check for Updates…",
-      "quit": "Quit Witsy",
+      "checkForUpdates": "更新を確認する…",
+      "quit": "Witsyを終了する",
       "settings": "@:{'common.settings'}…"
     },
     "edit": {
-      "deleteChat": "Delete Chat",
-      "deleteMedia": "Delete Media",
+      "deleteChat": "チャットを削除する",
+      "deleteMedia": "メディアを削除する",
       "startDictation": "Start Dictation",
-      "title": "Edit"
+      "title": "編集"
     },
     "file": {
       "designStudio": "@:{'designStudio.title'}",
-      "newChat": "New Chat",
+      "newChat": "新しいチャット",
       "quickPrompt": "Quick Prompt",
       "scratchpad": "@:{'scratchpad.title'}",
-      "title": "File"
+      "title": "ファイル"
     },
     "help": {
       "goToDataFolder": "Go to Data Folder",
@@ -1428,159 +1428,159 @@
     "generationError": "Error while generating text",
     "loadingError": "Error while loading scratchpad file",
     "placeholder": "Start typing your document or\nask Witsy to write something for you!\n\nOnce you started you can ask Witsy\nto make modification on your document.\n\nIf you highligh a portion of your text,\nWitsy will only update this portion.\n\nAlso check out the Writing Assistant\nin the action bar in the lower right corner!\n\nGive it a go!",
-    "title": "Scratchpad"
+    "title": "スクラッチパッド"
   },
   "settings": {
     "advanced": {
-      "autoSavePrompt": "Always save prompt sessions in chat history",
-      "autoVisionSwitch": "Automatically switch to vision model",
-      "conversationLength": "Messages per conversation",
-      "imageResize": "Image resize",
+      "autoSavePrompt": "常にプロンプトセッションをチャット履歴に保存する",
+      "autoVisionSwitch": "自動的にビジョンモデルに切り替える",
+      "conversationLength": "会話あたりのメッセージ数",
+      "imageResize": "画像リサイズ",
       "imageResizeOptions": {
-        "none": "No resize",
-        "size": "Resize largest dimension to {size} pixels"
+        "none": "リサイズなし",
+        "size": "最大解像度を{size}ピクセルにリサイズ"
       },
       "instructions": {
-        "chat": "Chat - Instructions",
-        "docquery": "Document query - Instructions",
-        "image_plugin": "Image Plugin - Description (1024 characters max)",
-        "memory_plugin": "Memory Plugin - Description (1024 characters max)",
-        "scratchpad_complete": "Scratchpad - Complete",
-        "scratchpad_expand": "Scratchpad - Expand",
-        "scratchpad_improve": "Scratchpad - Improve",
-        "scratchpad_prompt": "Scratchpad - Prompt",
-        "scratchpad_simplify": "Scratchpad - Simplify",
-        "scratchpad_spellcheck": "Scratchpad - Spellcheck",
-        "scratchpad_system": "Scratchpad - Instructions",
-        "scratchpad_takeaways": "Scratchpad - Takeaways",
-        "scratchpad_title": "Scratchpad - Title",
-        "titling": "Chat title - Instructions",
-        "titlingUser": "Chat title - Prompt",
-        "video_plugin": "Video Plugin - Description (1024 characters max)"
+        "chat": "チャット - 指示",
+        "docquery": "文書検索 - 指示",
+        "image_plugin": "画像プラグイン - 説明 (最大1024文字)",
+        "memory_plugin": "メモリプラグイン - 説明 (最大1024文字)",
+        "scratchpad_complete": "スクラッチパッド - 完成",
+        "scratchpad_expand": "スクラッチパッド - 展開",
+        "scratchpad_improve": "スクラッチパッド - 改善",
+        "scratchpad_prompt": "スクラッチパッド - プロンプト",
+        "scratchpad_simplify": "スクラッチパッド - 簡略化",
+        "scratchpad_spellcheck": "スクラッチパッド - 拼写チェック",
+        "scratchpad_system": "スクラッチパッド - 指示",
+        "scratchpad_takeaways": "スクラッチパッド - 取りまとめ",
+        "scratchpad_title": "スクラッチパッド - タイトル",
+        "titling": "チャットタイトル - 指示",
+        "titlingUser": "チャットタイトル - プロンプト",
+        "video_plugin": "ビデオプラグイン - 説明 (最大1024文字)"
       },
-      "overridingHelp": "Custom prompts or instructions are applicable for all languages.",
-      "resetToDefault": "Reset to default value",
-      "systemInstructions": "System instructions"
+      "overridingHelp": "カスタムプロンプトまたは指示はすべての言語に適用されます。",
+      "resetToDefault": "デフォルト値に戻す",
+      "systemInstructions": "システム指示"
     },
     "appearance": {
-      "chatFont": "Chat font",
-      "chatFontSize": "Chat font size",
-      "chatListLayout": "Chat list layout",
+      "chatFont": "チャットフォント",
+      "chatFontSize": "チャットフォントサイズ",
+      "chatListLayout": "チャットリストレイアウト",
       "chatListLayouts": {
-        "compact": "Compact",
+        "compact": "コンパクト",
         "cozy": "Cozy"
       },
-      "chatTheme": "Chat theme",
+      "chatTheme": "チャットテーマ",
       "chatThemes": {
-        "conversation": "Conversation",
+        "conversation": "会話",
         "openai": "OpenAI"
       },
-      "darkTint": "Dark tint",
-      "theme": "Appearance",
+      "darkTint": "ダークティント",
+      "theme": "外観",
       "themes": {
-        "dark": "Dark",
-        "light": "Light",
-        "system": "System"
+        "dark": "ダーク",
+        "light": "ライト",
+        "system": "システム"
       },
       "tints": {
-        "black": "Black",
-        "blue": "Blue"
+        "black": "ブラック",
+        "blue": "ブルー"
       }
     },
     "commands": {
-      "confirmDelete": "Are you sure you want to delete this command?",
-      "defaults": "Defaults",
-      "export": "Export",
-      "exportError": "Failed to export commands file",
-      "exportSuccess": "Commands file exported successfully",
-      "import": "Import",
-      "importError": "Failed to import commands file",
-      "importSuccess": "Commands file imported successfully",
-      "more": "More",
-      "new": "New",
+      "confirmDelete": "このコマンドを削除してもよろしいですか？",
+      "defaults": "デフォルト",
+      "export": "エクスポート",
+      "exportError": "コマンドファイルのエクスポートに失敗しました",
+      "exportSuccess": "コマンドファイルをエクスポートしました",
+      "import": "インポート",
+      "importError": "コマンドファイルのインポートに失敗しました",
+      "importSuccess": "コマンドファイルをインポートしました",
+      "more": "もっと",
+      "new": "新規",
       "selectAll": "@:{'common.selectAll'}",
       "unselectAll": "@:{'common.selectNone'}"
     },
     "engines": {
       "anthropic": {
-        "aboutModels": "More about Anthropic models",
-        "pricing": "Anthropic pricing"
+        "aboutModels": "Anthropicのモデルについて",
+        "pricing": "Anthropicの料金"
       },
-      "apiKey": "API key",
+      "apiKey": "APIキー",
       "azure": {
-        "create": "Create Azure deployment connection",
-        "description": "You can create a connection to your Azure deployment by clicking the button below. This allows you to create distinct connections for each of your Azure deployments."
+        "create": "Azureデプロイメント接続を作成する",
+        "description": "以下のボタンを押してAzureデプロイメントに接続を作成できます。これにより、各Azureデプロイメントに対して異なる接続を作成できます。"
       },
       "cerebras": {
-        "aboutModels": "More about Cerebras models",
-        "pricing": "Cerebras pricing"
+        "aboutModels": "Cerebrasのモデルについて",
+        "pricing": "Cerebrasの料金"
       },
-      "chatModel": "Chat model",
+      "chatModel": "チャットモデル",
       "custom": {
-        "apiBaseURL": "API Base URL",
-        "apiSpecification": "API Specification",
-        "apiVersion": "API Version",
-        "confirmDelete": "Are you sure you want to delete this custom provider?",
-        "create": "Create engine",
-        "delete": "Delete engine",
-        "deployment": "Deployment",
-        "endpoint": "Endpoint"
+        "apiBaseURL": "APIベースURL",
+        "apiSpecification": "API仕様",
+        "apiVersion": "APIバージョン",
+        "confirmDelete": "このカスタムプロバイダーを削除してもよろしいですか？",
+        "create": "エンジンを作成する",
+        "delete": "エンジンを削除する",
+        "deployment": "デプロイメント",
+        "endpoint": "エンドポイント"
       },
       "deepseek": {
-        "aboutModels": "More about DeepSeek models",
-        "pricing": "DeepSeek pricing"
+        "aboutModels": "DeepSeekのモデルについて",
+        "pricing": "DeepSeekの料金"
       },
-      "disableTools": "Disable plugins for all models",
-      "getApiKey": "Get your API key",
+      "disableTools": "プラグインを無効にする",
+      "getApiKey": "APIキーを取得する",
       "google": {
-        "aboutModels": "More about Google models",
-        "pricing": "Google pricing"
+        "aboutModels": "Googleのモデルについて",
+        "pricing": "Googleの料金"
       },
       "groq": {
-        "aboutModels": "More about Groq models",
-        "pricing": "Groq pricing"
+        "aboutModels": "Groqのモデルについて",
+        "pricing": "Groqの料金"
       },
       "mistralai": {
-        "aboutModels": "More about MistralAI models",
-        "pricing": "MistralAI pricing"
+        "aboutModels": "MistralAIのモデルについて",
+        "pricing": "MistralAIの料金"
       },
       "ollama": {
-        "apiBaseURL": "API Base URL",
-        "browseModels": "Browse models",
-        "confirmDelete": "Are you sure you want to delete this model?"
+        "apiBaseURL": "APIベースURL",
+        "browseModels": "モデルを閲覧する",
+        "confirmDelete": "このモデルを削除してもよろしいですか？"
       },
       "openai": {
-        "aboutModels": "More about OpenAI models",
-        "apiBaseURL": "API Base URL",
-        "pricing": "OpenAI pricing"
+        "aboutModels": "OpenAIのモデルについて",
+        "apiBaseURL": "APIベースURL",
+        "pricing": "OpenAIの料金"
       },
       "openrouter": {
-        "aboutModels": "More about OpenRouter models",
-        "pricing": "OpenRouter pricing"
+        "aboutModels": "OpenRouterのモデルについて",
+        "pricing": "OpenRouter料金"
       },
       "sdwebui": {
-        "baseURL": "API Base URL",
-        "ensureApiMode": "Make sure you are in API mode"
+        "baseURL": "APIベースURL",
+        "ensureApiMode": "APIモードであることを確認してください"
       },
       "xai": {
-        "aboutModels": "More about xAI models",
-        "pricing": "xAI pricing"
+        "aboutModels": "xAIのモデルについて",
+        "pricing": "xAIの料金"
       }
     },
     "experts": {
-      "confirmDelete": "Are you sure you want to delete this expert?",
-      "copy": "Copy",
-      "export": "Export",
-      "exportError": "Failed to export experts file",
-      "exportSuccess": "Experts file exported successfully",
-      "import": "Import",
-      "importError": "Failed to import experts file",
-      "importSuccess": "Experts file imported successfully",
-      "more": "More",
-      "new": "New",
+      "confirmDelete": "この専門家を削除してもよろしいですか？",
+      "copy": "コピー",
+      "export": "エクスポート",
+      "exportError": "専門家ファイルのエクスポートに失敗しました",
+      "exportSuccess": "専門家ファイルをエクスポートしました",
+      "import": "インポート",
+      "importError": "専門家ファイルのインポートに失敗しました",
+      "importSuccess": "専門家ファイルをインポートしました",
+      "more": "もっと",
+      "new": "新規",
       "selectAll": "@:{'common.selectAll'}",
-      "sortAlpha": "Sort alphabetically",
-      "sortState": "Sort by state",
+      "sortAlpha": "アルファベット順に並べ替え",
+      "sortState": "状態で並べ替え",
       "unselectAll": "@:{'common.selectNone'}"
     },
     "general": {
