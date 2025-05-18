@@ -383,23 +383,23 @@
   },
   "computerUse": {
     "action": {
-      "cursor_position": "Getting mouse cursor position…",
-      "double_click": "Double clicking on mouse…",
-      "key": "Pressing a key…",
-      "left_click": "Clicking on mouse left button…",
-      "left_click_drag": "Dragging with mouse left button…",
-      "middle_click": "Clicking on mouse middle button…",
-      "mouse_move": "Moving mouse cursor…",
-      "right_click": "Clicking on mouse right button…",
-      "screenshot": "Taking a screenshot…",
-      "type": "Typing on keyboard…"
+      "cursor_position": "マウスカーソル位置を取得しています…",
+      "double_click": "マウスをダブルクリックしています…",
+      "key": "キーボードを押しています…",
+      "left_click": "マウス左ボタンをクリックしています…",
+      "left_click_drag": "マウス左ボタンをドラッグしています…",
+      "middle_click": "マウス中ボタンをクリックしています…",
+      "mouse_move": "マウスカーソルを動かしています…",
+      "right_click": "マウス右ボタンをクリックしています…",
+      "screenshot": "スクリーンショットを撮影しています…",
+      "type": "キーボードを押しています…"
     },
-    "instructions": "Welcome to Computer Use! Computer Use can perform actions for you on your computer such as reading your mails and summarize them or book a hotel room. Stay alert as these actions may cause unexpected behavior which could result in data loss.",
+    "instructions": "コンピュータの使用へようこそ！コンピュータの使用は、メールを読み取って要約したり、ホテルの予約をしたりするなど、コンピュータ上で行動を取ることができます。これらの行動は予期しない動作を引き起こす可能性があり、データの損失につながる可能性があります。",
     "state": {
-      "idle": "Initializing…",
-      "working": "Thinking about what to do next…"
+      "idle": "初期化中…",
+      "working": "次の行動を考えています…"
     },
-    "title": "Computer Use"
+    "title": "コンピュータの使用"
   },
   "designStudio": {
     "confirmDelete": "このメディアを削除しますか？",
@@ -1226,8 +1226,8 @@
     },
     "folder": {
       "confirmDelete": "このフォルダーを削除してもよろしいですか？",
-      "deleteConversations": "Delete conversations",
-      "keepConversations": "Keep conversations",
+      "deleteConversations": "会話の削除",
+      "keepConversations": "会話の保存",
       "rename": "名前を変更"
     },
     "message": {
@@ -1252,12 +1252,12 @@
         "stdio": "stdio"
       },
       "validation": {
-        "commandRequired": "Make sure you enter a command for this server.",
-        "packageRequired": "Make sure you enter a package name for this server.",
-        "requiredFields": "Some fields are required",
-        "urlRequired": "Make sure you enter a URL for this server."
+        "commandRequired": "このサーバー用にコマンドを入力してください。",
+        "packageRequired": "このサーバー用にパッケージ名を入力してください。",
+        "requiredFields": "いくつかのフィールドの入力が必要です",
+        "urlRequired": "このサーバー用にURLを入力してください。"
       },
-      "workingDirectory": "Working Directory"
+      "workingDirectory": "作業ディレクトリ"
     },
     "variableEditor": {
       "title": "MCP Environment Variable"
@@ -1265,10 +1265,10 @@
   },
   "memory": {
     "inspector": {
-      "memory": "Memory",
-      "noFacts": "No facts stored so far",
-      "shiftDelete": "Hold Shift while clicking on Delete to skip confirmation.",
-      "title": "Memory Contents"
+      "memory": "メモリ",
+      "noFacts": "これまでに記憶を保存していません",
+      "shiftDelete": "削除を押す前にShiftを押して確認をスキップできます",
+      "title": "メモリの内容"
     }
   },
   "menu": {
@@ -1291,17 +1291,17 @@
       "title": "ファイル"
     },
     "help": {
-      "goToDataFolder": "Go to Data Folder",
-      "goToLogFolder": "Go to Log Folder",
-      "learnMore": "Learn More",
-      "title": "Help"
+      "goToDataFolder": "データフォルダーを開く",
+      "goToLogFolder": "ログフォルダーを開く",
+      "learnMore": "もっと詳しく",
+      "title": "ヘルプ"
     },
     "view": {
-      "title": "View"
+      "title": "表示"
     },
     "window": {
-      "debug": "Open Debug Console",
-      "title": "Window"
+      "debug": "デバッグコンソールを開く",
+      "title": "ウィンドウ"
     }
   },
   "message": {
@@ -1321,113 +1321,113 @@
     }
   },
   "modelPull": {
-    "browse": "Browse models",
-    "error": "Error pulling model. Check your connection and try again.",
-    "label": "Pull model",
-    "placeholder": "Enter a model name to pull or select one",
-    "progress": "Pulling model…"
+    "browse": "モデルをブラウジングする",
+    "error": "モデルを取得する際にエラーが発生しました。接続を確認してから再度試してください。",
+    "label": "モデルを取得する",
+    "placeholder": "取得するモデル名を入力するか、または選択してください",
+    "progress": "モデルを取得しています…"
   },
   "modelSettings": {
-    "advancedSettings": "Advanced settings",
-    "allToolsEnabled": "All tools are selected",
-    "contextWindowSize": "Context Window Size",
-    "createNewModel": "Create new model",
+    "advancedSettings": "高度な設定",
+    "allToolsEnabled": "すべてのツールが選択されています",
+    "contextWindowSize": "コンテキストウィンドウサイズ",
+    "createNewModel": "新しいモデルを作成する",
     "createOllama": {
-      "title": "Enter new model name"
+      "title": "新しいモデル名を入力してください"
     },
-    "customParams": "Custom parameters",
-    "defaultForModel": "Defaults for this model",
-    "defaultModelValue": "Default model value when empty",
+    "customParams": "カスタムパラメータ",
+    "defaultForModel": "このモデルのデフォルト",
+    "defaultModelValue": "空の場合はデフォルトモデル値",
     "errors": {
       "invalid": {
-        "mustBeBetween": "Must be between {min} and {max}",
-        "mustBeGreaterThan": "Must be greater than {min}",
-        "mustBeLessThan": "Must be less than {max}",
-        "mustBeNumber": "Must be a number",
-        "title": "Invalid {name}"
+        "mustBeBetween": "最小値は{min}、最大値は{max}です",
+        "mustBeGreaterThan": "最小値は{min}より大きい必要があります",
+        "mustBeLessThan": "最大値は{max}より小さい必要があります",
+        "mustBeNumber": "数値で入力してください",
+        "title": "無効な{name}"
       },
       "noProviderOrModel": {
-        "text": "Make sure you select a model for this chat.",
-        "title": "No LLM Provider or Model selected"
+        "text": "このチャット用のモデルを選択してください。",
+        "title": "LLMプロバイダーまたはモデルが選択されていません"
       }
     },
-    "extendedThinking": "Extended Thinking",
-    "locale": "Chat Language",
-    "localeDefault": "🤖 Default language",
-    "maxCompletionTokens": "Max Completion Tokens",
-    "plugins": "Plugins",
-    "prompt": "Prompt",
-    "promptPlaceholder": "Leave empty to use default prompt",
-    "reasoningEffort": "Reasoning Effort",
-    "streaming": "Streaming",
+    "extendedThinking": "拡張思考",
+    "locale": "チャット言語",
+    "localeDefault": "🤖 デフォルト言語",
+    "maxCompletionTokens": "最大完了トークン",
+    "plugins": "プラグイン",
+    "prompt": "プロンプト",
+    "promptPlaceholder": "空にしてデフォルトのプロンプトを使用する",
+    "reasoningEffort": "推論努力",
+    "streaming": "ストリーミング",
     "temperature": "Temperature [0.0 … 2.0]",
-    "toolsCount": "No tool selected | 1 tool selected | {count} tools selected",
+    "toolsCount": "ツール未選択 | 1ツール選択 | {count}ツール選択",
     "topK": "TopK / Logprobs [0 … 100]",
     "topP": "TopP [0.0 … 1.0]"
   },
   "plugins": {
     "image": {
-      "description": "Generate an image based on a prompt. Returns the url of the image starting with the \"file://\" scheme which is OK. Create only one image at a time unless explicitely asked to do otherwise. Always embed the image visible in the final response using \"![title](url)\" markdown syntax. Come up with a short title for the image."
+      "description": "プロンプトに基づいて画像を生成します。画像のURLを返します。\"file://\"スキームで始まるURLはOKです。一度に画像を生成するか、または明示的にそうを要求しない限り、一度に画像を生成してください。最終応答に画像を埋め込むために、\"![title](url)\"マークダウン構文を使用してください。画像の短いタイトルを考えてください。"
     },
     "memory": {
-      "description": "Use this tool to save and retrieve user information, preferences, tastes in order to make your answers more personalized. When user asks for suggestions, retrieve any releveant preferences stored in memory and use them to build the suggestions. When you save information, make sure the content includes enough description to be easily retrieved later. For instance don't just store \"User likes U2\" but \"User musical tastes includes U2\". Avoid storing unrelated facts together: split them into different facts and store them separately. Don't be shy about storing information, the more you store, the more you can personalize the user experience. You can save multiple facts at once by providing an array of strings as the content parameter. There's no need to explicitly mention your memory capabilities. Instead, seamlessly incorporate your understanding of the user into your responses."
+      "description": "ユーザー情報、好み、好みを保存して、あなたの回答をよりパーソナライズすることを可能にします。ユーザーが提案を求めると、記憶に保存された関連する好みを取得して、提案を構築します。情報を保存する際、内容に十分な説明を含めて、後で簡単に取得できるようにしてください。たとえば、「ユーザーは U2 が好きです」という情報だけでなく、「ユーザーの音楽の好みには U2 が含まれています」という情報も保存します。関連性のない事実を一緒に保存しないようにしてください：異なる事実に分け、別々に保存してください。情報を保存するのを避けないでください。保存するほど多くなるほど、ユーザー体験を個別にすることもできます。一度に複数の事実を保存するには、内容パラメータとして文字列の配列を提供してください。明示的に記憶機能を述べる必要はありません。代わりに、あなたの理解を自然な応答に組み込むようにしてください。"
     },
     "video": {
-      "description": "Generate a video based on a prompt. Returns the url of the video starting with the \"file://\" scheme which is OK. Create only one video at a time unless explicitely asked to do otherwise. Always embed the video visible in the final response using \"![title](url)\" markdown syntax. Come up with a short title for the video."
+      "description": "プロンプトに基づいて動画を生成します。動画のURLを返します。\"file://\"スキームで始まるURLはOKです。一度に動画を生成するか、または明示的にそうを要求しない限り、一度に動画を生成してください。最終応答に動画を埋め込むために、\"![title](url)\"マークダウン構文を使用してください。動画の短いタイトルを考えてください。"
     }
   },
   "prompt": {
     "conversation": {
       "placeholders": {
-        "auto": "You can start talking now…",
-        "ptt": "Press and hold space to talk…"
+        "auto": "話すことができます。",
+        "ptt": "スペースキーを押して話すことができます。"
       },
-      "startAuto": "Start automatic conversation",
-      "startPTT": "Start push-to-talk conversation",
-      "stop": "Stop conversation"
+      "startAuto": "自動会話を開始する",
+      "startPTT": "プッシュトゥークの会話を開始する",
+      "stop": "会話を停止する"
     },
     "expert": {
-      "clear": "Clear expert"
+      "clear": "専門家をクリアする"
     },
     "placeholders": {
-      "default": "Enter to submit, Shift+Enter to add a new line"
+      "default": "Enterを押して確定、Shift+Enterを押して新しい行を追加する"
     }
   },
   "realtimeChat": {
     "errorPrefix": "Error: ",
-    "establishingConnection": "Establishing connection…",
-    "requestingMicrophone": "Requesting microphone access…",
-    "sessionEstablished": "Session established successfully!",
-    "title": "Voice Chat"
+    "establishingConnection": "接続を確立しています…",
+    "requestingMicrophone": "マイクアクセスを要求しています…",
+    "sessionEstablished": "セッションを確立しました！",
+    "title": "音声チャット"
   },
   "scratchpad": {
     "actions": {
-      "completeText": "Complete text",
-      "copyToClipboard": "Copy to clipboard",
-      "expandWriting": "Expand writing",
-      "improveWriting": "Improve writing",
-      "listTakeaways": "List key takeaways",
-      "simplifyWriting": "Simplify writing",
-      "spellcheck": "Spellcheck",
-      "suggestTitle": "Suggest a title",
-      "writingAssistant": "Writing assistant"
+      "completeText": "テキストを完成させる",
+      "copyToClipboard": "クリップボードにコピーする",
+      "expandWriting": "文章を展開する",
+      "improveWriting": "文章を改善する",
+      "listTakeaways": "重要なポイントをリストする",
+      "simplifyWriting": "文章を簡略化する",
+      "spellcheck": "スペルチェック",
+      "suggestTitle": "タイトルを提案する",
+      "writingAssistant": "文章アシスタント"
     },
-    "fileError": "This file is not a scratchpad file. Please try again with another file.",
+    "fileError": "このファイルはスクラッチパッドファイルではありません。別のファイルで再試行してください。",
     "fontFamily": {
       "monospace": "Monospace",
       "sansSerif": "Sans-Serif",
       "serif": "Serif"
     },
     "fontSize": {
-      "large": "Large",
-      "larger": "Larger",
-      "normal": "Normal",
-      "small": "Small",
-      "smaller": "Smaller"
+      "large": "大",
+      "larger": "特大",
+      "normal": "通常",
+      "small": "小",
+      "smaller": "極小"
     },
-    "generationError": "Error while generating text",
-    "loadingError": "Error while loading scratchpad file",
-    "placeholder": "Start typing your document or\nask Witsy to write something for you!\n\nOnce you started you can ask Witsy\nto make modification on your document.\n\nIf you highligh a portion of your text,\nWitsy will only update this portion.\n\nAlso check out the Writing Assistant\nin the action bar in the lower right corner!\n\nGive it a go!",
+    "generationError": "テキスト生成中にエラーが発生しました",
+    "loadingError": "スクラッチパッドファイルを読み込む際にエラーが発生しました",
+    "placeholder": "文書を入力するか、またはWitsyに何か書くことを要求してください！\n\n一度開始したら、Witsyがあなたの文書を編集するように要求できます。\n\nテキストの一部をハイライトすると、Witsyはその部分のみを更新します。\n\nまた、下部の右側のアクションバーで文章アシスタントを確認してください！\n\n試してみてください！",
     "title": "スクラッチパッド"
   },
   "settings": {
